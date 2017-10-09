@@ -1,0 +1,51 @@
+   .left-margin{
+        margin:0 .5em 0 0;
+    }
+ 
+    .right-button-margin{
+        margin: 0 0 1em 0;
+        overflow: hidden;
+    }
+    
+    .loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../../images/LoaderIcon.gif') 50% 50% no-repeat rgb(249,249,249);
+
+}
+
+.tabBody{
+	background-color: #339999;
+	color: white;
+	font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+}
+.table-hover:hover{
+	color: black;
+	font-weight: bold;	
+}
+
+.headTr{
+	background-color:#333333; 
+	color:white; 
+	font-family:cursive;
+	box-shadow:1px 1px 2px black
+}
+
+.headTr:hover{
+	background-color:#333333; 
+	color:red; 
+	font-family:cursive;
+	box-shadow:1px 1px 2px black
+}
+
+.fot{
+
+	font-size: 25px;
+	font-weight: bold;
+
+}
